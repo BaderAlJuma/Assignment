@@ -15,7 +15,7 @@ namespace ConsoleApp1
 
 			t2.UpdateData();
 			t1.UpdateData();
-
+			// You can use Teacher.DeleteFile() also to remove a text file for a given object
 			Console.WriteLine("This program creates a text file for each Teacher object and stores it in the project " +
 				"directory. To update the files, we use the UpdateData() method after changing the object variables.");
 		}
